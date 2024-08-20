@@ -1,5 +1,5 @@
 # 파이썬 자료형 테스트
-# 같은 데이터 타입 
+# 같은 데이터 타입
 
 def python_study (data_type):
     results = {}

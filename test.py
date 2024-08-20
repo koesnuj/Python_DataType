@@ -20,8 +20,8 @@ d = [1, 2, 3]   # list
 e = (1, 2, 3)   # tuple
 f = {"key": "value"}  # dict
 
-# 요청된 연산 수행
-print("덧셈 연산:")
+# 연산 수행
+print("더하기 연산:")
 test(a, b, '+')
 test(a, c, '+')
 test(a, d, '+')
@@ -31,7 +31,7 @@ test(c, d, '+')
 test(c, e, '+')
 test(d, e, '+')
 
-print("\n뺄셈 연산:")
+print("\n빼기 연산:")
 test(a, b, '-')
 test(a, c, '-')
 test(a, d, '-')
@@ -41,7 +41,7 @@ test(c, d, '-')
 test(c, e, '-')
 test(d, e, '-')
 
-print("\n역방향 뺄셈 연산:")
+print("\n빼기 연산2:")
 test(b, a, '-')
 test(c, a, '-')
 test(d, a, '-')
@@ -51,7 +51,7 @@ test(d, c, '-')
 test(e, c, '-')
 test(e, d, '-')
 
-print("\n곱셈 연산:")
+print("\n곱하기 연산:")
 test(a, b, '*')
 test(a, c, '*')
 test(a, d, '*')
@@ -61,7 +61,7 @@ test(b, d, '*')
 test(c, d, '*')
 test(c, f, '*')
 
-print("\n나눗셈 연산:")
+print("\n나누기 연산:")
 test(b, a, '/')
 test(c, a, '/')
 test(d, a, '/')

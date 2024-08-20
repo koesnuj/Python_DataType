@@ -1,2 +1,2 @@
-# Python_DataType
+# python_datatype
 공부해
